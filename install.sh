@@ -58,7 +58,7 @@ CONFIG_PATH="/usr/local/x-ui/config.json"
 if [ ! -f "$CONFIG_PATH" ]; then
     cat <<EOF > "$CONFIG_PATH"
 {
-  "webPort": 54321,
+  "webPort": 2053,
   "webCertFile": "",
   "webKeyFile": "",
   "webDomain": "",
@@ -77,7 +77,7 @@ IP=$(hostname -I | awk '{print $1}')
 echo
 echo "======================================================"
 echo "✅ X-UI v$VERSION installed and running successfully!"
-echo "🌐 Access panel via: http://$IP:54321"
+echo "🌐 Access panel via: http://$IP:2053"
 echo "🧩 Default username: admin"
 echo "🔑 Default password: admin"
 echo "⚙️  To manage panel, run: x-ui"
