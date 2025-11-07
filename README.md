@@ -75,7 +75,7 @@ systemctl daemon-reload
  ---
 
 🧠 نمونه خروجی پس از نصب موفق
-
+```
 ======================================================
 ✅ X-UI v2.6.3 installed and running successfully!
 🌐 Access panel via: http://123.45.67.89:2053
@@ -83,4 +83,4 @@ systemctl daemon-reload
 🔑 Default password: admin
 ⚙️  To manage panel, run: x-ui
 ======================================================
-
+```
